@@ -1,0 +1,7 @@
+ul {text-align: center;}
+ul li {display: inline-block; margin: 10px; color: rgb(95, 241, 95);text-align: center; font-weight: bold; text-decoration: none ;}
+img {width: 1450px; height: 800px; margin-top: 30px; margin-left: auto; margin-right: auto; display: block;}
+h2 {text-align: center;}
+p {text-align: center; margin-left: 80px; margin-right: 80px;}
+a {text-align: center; background-color: greenyellow; width: fit-content; 
+    padding: 15px 25px; margin-right: auto; margin-left: auto; border-radius: 3px; color: aliceblue; display: block; text-decoration: none;}
