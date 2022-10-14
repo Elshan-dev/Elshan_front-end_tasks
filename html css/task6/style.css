@@ -1,0 +1,15 @@
+.sun {
+    background-color: limegreen;
+    color: white;
+    width: fit-content;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sun::after {
+    content: "\2600";
+    color: yellow;
+}
+
+.sun::selection {
+    background-color: red;
+}
