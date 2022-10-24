@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(203, 203, 203, 0.86);
+}
+
+.boxes-cont {
+margin: 10px 90px;
+box-sizing: border-box;
+padding: 0 100px;
+}
+
+.box1{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.box2{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 5px gray;
+}
+
+.box3{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border: 0.5px solid transparent;
+    box-shadow: 0.5px 0.5px 12px gray;
+}
+
+.box4{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border: 0.5px solid transparent;
+    box-shadow: 0.5px 20px 18px gray;
+}
+
+.box5{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border: 0.5px solid transparent;
+    box-shadow: 0.5px 20px 18px gray;
+}
+
+.box6{
+    float: left;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border: 0.5px solid transparent;
+    box-shadow: 0.5px 20px 18px gray;
+}
