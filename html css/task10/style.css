@@ -1,0 +1,54 @@
+header{
+color: #63b7e6;
+font-family: sans-serif;
+text-align: center;
+margin: 50px 0px;
+}
+
+.flex-container{
+    font-family: sans-serif;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 200px;
+    height: 500px;
+    text-align: center;
+    color: grey
+}
+
+i{
+    font-size: 40px;
+}
+
+.flex-item{
+    width: 300px;
+    padding: 20px 40px;
+}
+
+.flex-container>.flex-item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 25px gray;
+    
+}
+
+.flex-container>.flex-item:hover i{
+    color: #63b7e6;
+}
+
+.flex-container>.flex-item:hover h3{
+    color: #63b7e6;
+}
+
+.line{
+    height: 2px;
+    width: 60px;
+    background-color: gray;
+    margin: 0px auto;
+
+}
+
+.flex-container>.flex-item:hover .line{
+    width: 40px;
+    transition: 300ms all;
+}
