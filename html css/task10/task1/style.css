@@ -21,51 +21,23 @@ i{
     font-size: 40px;
 }
 
-.flex-item1,.flex-item2,.flex-item3{
+.flex-item{
     width: 300px;
     padding: 20px 40px;
 }
 
-.flex-container>.flex-item1:hover{
+.flex-container>.flex-item:hover{
     cursor: pointer;
     box-shadow: 0px 0px 25px gray;
     
 }
-
-.flex-container>.flex-item2:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 25px gray;
-}
-
-.flex-container>.flex-item3:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 25px gray;
-}
-
-.flex-container>.flex-item1:hover i{
+.flex-container>.flex-item:hover i{
     color: #63b7e6;
 }
 
-.flex-container>.flex-item2:hover i{
+.flex-container>.flex-item:hover h3{
     color: #63b7e6;
 }
-
-.flex-container>.flex-item3:hover i{
-    color: #63b7e6;
-}
-
-.flex-container>.flex-item1:hover h3{
-    color: #63b7e6;
-}
-
-.flex-container>.flex-item2:hover h3{
-    color: #63b7e6;
-}
-
-.flex-container>.flex-item3:hover h3{
-    color: #63b7e6;
-}
-
 .line{
     height: 2px;
     width: 60px;
@@ -74,17 +46,8 @@ i{
 
 }
 
-.flex-container>.flex-item1:hover .line{
+.flex-container>.flex-item:hover .line{
     width: 40px;
     transition: 300ms all;
 }
 
-.flex-container>.flex-item2:hover .line{
-    width: 40px;
-    transition: 300ms all;
-}
-
-.flex-container>.flex-item3:hover .line{
-    width: 40px;
-    transition: 300ms all;  
-}
