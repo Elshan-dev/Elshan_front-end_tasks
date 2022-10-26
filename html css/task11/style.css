@@ -1,11 +1,12 @@
 body{
     margin: 0;
+    background-color:rgb(31, 4, 48);
 }
 .grid-container{
     display: grid;
     background-size: 100%;
     background-color: rgb(31, 4, 48);
-    padding: 25px 25px 85px 25px;
+    padding: 25px;
     grid-template-columns: repeat(5, 18vw);
     grid-template-rows: repeat(3, 27vh);
     grid-gap: 15px;
