@@ -1,0 +1,56 @@
+.pacman{
+    margin: 50px 0px 0px 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.pacman>.pacman-top,.pacman-bottom{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.eyeball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50px;
+    right: 80px ;
+}
+.pacman-top{
+    position: relative;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    transform:rotate(-40deg);
+    transform-origin:bottom ;
+    animation: toprotate 400ms infinite alternate;
+}
+
+.pacman-bottom{
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    transform:rotate(40deg);
+    transform-origin:top ;
+    animation: bottomrotate 400ms infinite alternate;
+}
+
+@keyframes toprotate{
+    from{
+        transform: rotate(-40deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bottomrotate{
+    from{
+        transform: rotate(40deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
