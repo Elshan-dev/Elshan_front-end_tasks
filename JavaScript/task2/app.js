@@ -32,14 +32,8 @@ let num1=+prompt('Enter number:')
 if (num1 % 2 =='0'){
     console.log('An even number')
 }
-else if(num1%2 >0){
-    console.log('An odd number')
-}
-else if(num1%2 <0){
-    console.log('An odd number')
-}
 else{
-    console.log('Not supported')
+    console.log('An odd number')
 }
 
 // Task5 max
