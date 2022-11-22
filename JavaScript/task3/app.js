@@ -6,6 +6,7 @@ let say = 1;
 
 while (randomnum !== usernum) {
   say = say + 1;
+  // A: say++
   if (randomnum > usernum) {
     usernum = +prompt("Enter bigger number:");
   } else {
@@ -30,7 +31,9 @@ console.log(`Congrats, you have found number ${randomnum} in ${say} attempts.`);
 let usernumb = +prompt('Enter number:')
 let u = 0
 for (x = 1; x <= usernumb; x++) {
+  //   A: let x=1
   u = u+x
+// A: u+=x
 }
 console.log(`The sum is ${u}`)
 
@@ -48,6 +51,8 @@ for (let i=4 ; i>=1 ; i--) {
 let usernumber = +prompt('Enter number:')
 let m = 1
 for (i = 1; i <= usernumber; i++) {
+//   A: let i = 1
   m = m*i
+//   m *= i
 }
 console.log(`The factorial is ${m}`)
