@@ -24,7 +24,7 @@ function showresult (a,b,c){
     console.log(`Cavab :${c}`)
 }
 
-function sum(a,b){
+function sum(){
     return num1+num2
 }
 
