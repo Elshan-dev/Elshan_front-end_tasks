@@ -1,59 +1,73 @@
-// Task 1
+// // Task 1
 
-const obj1 = {
-    ad: 'ger',
-    soyad: 'man'
-}
+// const obj1 = {
+//     ad: 'ger',
+//     soyad: 'man'
+// }
 
-const obj2 = {
-    ad: 'murebbe',
-    soyad: 'eldarov'
-}
+// const obj2 = {
+//     ad: 'murebbe',
+//     soyad: 'eldarov'
+// }
 
-function deepclone(ob1,ob2){
-for (let key in ob1){
-    ob2[key]=ob1[key]
-}
-}
+// function deepclone(ob1,ob2){
+// for (let key in ob1){
+//     ob2[key]=ob1[key]
+// }
+// }
 
-deepclone(obj1,obj2)
+// deepclone(obj1,obj2)
 
-console.log(obj1,obj2)
+// console.log(obj1,obj2)
 
-// Task 2
+// Task2 return
 
-let obj = {
+let anobject = {
     ad: 'ger',
     soyad: 'man'
 }
 
 function deleteProperty (a,b){
-if (a===obj.soyad){
-    delete b['soyad']
-}
-else if (a===obj.ad){
-    delete b['ad']
-}
+return delete b[a]
 }
 
-deleteProperty(obj.soyad,obj)
+deleteProperty('soyad',anobject)
+console.log(anobject.ad,anobject.soyad)
 
-console.log(obj.ad,obj.soyad)
+// // Task 2 if
 
-// Task 3
+// let obj = {
+//     ad: 'ger',
+//     soyad: 'man'
+// }
 
-const object = {
-    ad: 'pizza' ,
-    dad: 'ela' ,
-    olcu: '25sm',
-}
+// function deleteProperty (a,b){
+// if (a===obj.soyad){
+//     delete b['soyad']
+// }
+// else if (a===obj.ad){
+//     delete b['ad']
+// }
+// }
 
-let say = 0
-function objectCount (){
-for(let key in object){
-    say+=1
-}
-}
+// deleteProperty(obj.soyad,obj)
 
-objectCount()
-console.log (say)   
+// console.log(obj.ad,obj.soyad)
+
+// // Task 3
+
+// const object = {
+//     ad: 'pizza' ,
+//     dad: 'ela' ,
+//     olcu: '25sm',
+// }
+
+// let say = 0
+// function objectCount (){
+// for(let key in object){
+//     say+=1
+// }
+// }
+
+// objectCount()
+// console.log (say)   
