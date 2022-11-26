@@ -1,3 +1,4 @@
+// done ✅
 let num1 = getnum()
 let num2= getnum()
 let pow = power(num1, num2)
