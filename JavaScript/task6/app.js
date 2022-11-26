@@ -1,5 +1,5 @@
 // Task 1
-
+// A: z/o spread operatoru ile de ede bilersen))) eziyyet cekmeye ehtiyac yoxdu
 const obj1 = {
     ad: 'ger',
     soyad: 'man'
@@ -26,7 +26,7 @@ let obj = {
     ad: 'ger',
     soyad: 'man'
 }
-
+// A: dersde danisdigimiz kimi :)
 function deleteProperty (a,b){
 if (a===obj.soyad){
     delete b['soyad']
@@ -41,7 +41,7 @@ deleteProperty(obj.soyad,obj)
 console.log(obj.ad,obj.soyad)
 
 // Task 3
-
+// done ✅
 const object = {
     ad: 'pizza' ,
     dad: 'ela' ,
