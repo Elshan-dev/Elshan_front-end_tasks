@@ -32,6 +32,7 @@ return delete b[a]
 }
 
 deleteProperty('soyad',anobject)
+
 console.log(anobject.ad,anobject.soyad)
 
 // // Task 2 if
