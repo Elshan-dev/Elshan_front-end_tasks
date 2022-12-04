@@ -163,9 +163,9 @@
 // // Task 13 angel of death (w/date)
 
 // function reaper (birthyear) {
-// let date = new Date();
+// let date = new Date()
 // if (date.getFullYear() - birthyear < 77) {
-//     alert(`You got ${77 - (date.getFullYear() - birthyear)} more years,make the most of it`);}
+//     alert(`You got ${77 - (date.getFullYear() - birthyear)} more years,make the most of it`)}
 // else {alert('Knocking on your door')}
 // }
 
@@ -174,15 +174,15 @@
 // // Task 14 how much time?
 
 // function HowMuchTime() {
-// const now = Date.now();
-// const dateOfBirth = new Date(prompt("Enter full date of birth (months start with 0):"));
-// let ms = now - dateOfBirth.getTime();
-// let sec = parseInt(ms / 1000);
-// let min = parseInt(sec / 60);
-// let hrs = parseInt(min / 60);
-// let day = parseInt(hrs / 24);
-// let mon = parseInt(day / 30);
-// let yrs = parseInt(mon / 12);
+// const now = Date.now()
+// const dateOfBirth = new Date(prompt("Enter full date of birth (months start with 0):"))
+// let ms = now - dateOfBirth.getTime()
+// let sec = parseInt(ms / 1000)
+// let min = parseInt(sec / 60)
+// let hrs = parseInt(min / 60)
+// let day = parseInt(hrs / 24)
+// let mon = parseInt(day / 30)
+// let yrs = parseInt(mon / 12)
 // document.write(`${ms} milliseconds <br/>${sec} seconds <br/>${min} minutes <br/>${hrs} hours <br/>${day} days <br/>${mon} months <br/>${yrs} years`)
 // }
-// HowMuchTime();
+// HowMuchTime()
