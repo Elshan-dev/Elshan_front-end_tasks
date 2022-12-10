@@ -1,6 +1,7 @@
 // string_date
 // // Task 1 repeat
 
+// A: done ✅
 // function repeatedSymbolCounter(a,b){
 //     let say = 0
 // for(let i of a){
@@ -18,6 +19,7 @@
 // console.log(answer)
 
 // // Task 2 cap
+// A: slice ile etmek olar mence 🐛
 
 // function capitalize(str){
 //     let word = ''
@@ -37,6 +39,7 @@
 
 // // Task 3 kebab
 
+// A: kebab case ferqlidir. "bu-test-ucundur" olmali idi
 // function snakeToKebab(str) {
 // return   str.toLowerCase()
 // }
@@ -45,7 +48,7 @@
 // console.log(answer2)
 
 // // Task 4 format
-
+// A: done ✅
 // function nameFormat(str) {
 //     let word2 = str.split(' ')
 //     return word2[0]+ ' ' + word2[1][0] + '.'
@@ -55,7 +58,7 @@
 // console.log(answer3)
 
 // // Task 5 ilkHerf
-
+// A: done ✅
 // function ilkHerfiDeyis(soz, ilkHerf) {
 // let newword = soz.replace(soz[0],ilkHerf)
 // return newword
@@ -66,6 +69,7 @@
 
 // // Task 6 split
 
+// A: done ✅
 // function sentenceSplit(str) {
 // return  str.split(' ')
 // }
@@ -75,6 +79,7 @@
 
 // // Task 7 removecharacter
 
+// A: replaceAll-dan istifade ede bilersen, daha yaxsi olar 🐛
 // function removeCharacterFromString(str,letter) {
 // for(let i in str) {
 // if(str[i] === letter) {
@@ -87,7 +92,7 @@
 // console.log(answer6)
 
 // // Task 8 gmail
-
+// A: done ✅
 // function verifyGmail(adress) {
 //     if (adress.length >= 15 && adress.endsWith("@gmail.com")) {
 //       alert(`Your email adress is ${adress}`)
@@ -98,7 +103,7 @@
 // verifyGmail(prompt("Email adresinizi daxil edin:"))
 
 // // Task 9 school
-
+// A: done ✅
 // let date = new Date()
 // let school = date.getDay()
 // function schoolday(){
@@ -118,6 +123,7 @@
 
 // // Task 11 week
 
+// A: done ✅
 // let obj = {
 //     1: 'Monday',
 //     2: 'Tuesday',
@@ -133,6 +139,7 @@
 
 // // Task 12 month
 
+// A: done ✅
 // let obj = {
 //     0: 'January',
 //     1: 'February',
@@ -153,6 +160,7 @@
 
 // // Task 13 angel of death (w/o date)
 
+// A: done ✅
 // let userAge = +prompt('Enter your age:')
 // function yearsLeft(userAge){
 //     return 77 - userAge
@@ -173,6 +181,7 @@
 
 // // Task 14 how much time?
 
+// A: done ✅
 // function HowMuchTime() {
 // const now = Date.now()
 // const dateOfBirth = new Date(prompt("Enter full date of birth (months start with 0):"))

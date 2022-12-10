@@ -1,6 +1,7 @@
 // array
 // Task  1 promptla massiv yaratmaq
 
+// A: done ✅
 // let arr1 = []
 // arr1.length = 5
 // for (let i = 0 ; i<arr1.length ; i++) {
@@ -10,6 +11,7 @@
 
 // Task 2 multiplyArray
 
+// A: done ✅
 // let arr2 = [3,4,2]
 // function multiplyArray (arr2){
 // let multiplyStart = 1
@@ -23,6 +25,7 @@
 
 // Task 3 multiply
 
+// A: done ✅
 // let arr3 = []
 // function multiply(...arr3){
 //     let multiStart = 1
@@ -37,6 +40,7 @@
 
 // Task 4 remove
 
+// A: done ✅
 // arr4 = []
 // function removeElement(arr4,z){
 //         arr4.splice(arr4.indexOf(z),1)
