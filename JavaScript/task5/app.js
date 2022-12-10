@@ -14,7 +14,7 @@
 // }
 // add(9, 10, console.log);
 
-// // Task 2 womn.☕
+// // Task 2 womn.☕.
 
 // function genderReveal (gender) {
 //     if (gender === "M") {
