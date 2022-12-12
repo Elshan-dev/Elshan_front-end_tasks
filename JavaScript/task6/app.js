@@ -1,5 +1,6 @@
 // Task 1
 
+// A: done ✅
 const obj1 = {
     ad: 'ger',
     soyad: 'man'
