@@ -4,6 +4,8 @@
 
 // // Task 1 callback
 
+// A: if-e ehtiyac yoxdu, ele callback-in argumentine ver getsin
+
 // function add(num1,num2,callback) {
 // if (callback === console.log) {
 // console.log(num1 + num2)
