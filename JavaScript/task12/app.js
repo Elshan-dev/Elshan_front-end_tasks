@@ -49,7 +49,9 @@ const users=[
     },
 ]
 const root=document.getElementById('root')
+
 function createElem() {
+// A: calis forEach-den istifade et
     for (let i = 0; i <8; i++) {
         const newEl = document.createElement('div')
         root.append(newEl)
