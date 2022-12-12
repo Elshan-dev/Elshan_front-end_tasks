@@ -1,3 +1,4 @@
+// A: done ✅
 let body = document.querySelector('body')
 let circleOneElement = document.querySelector('.one')
 
