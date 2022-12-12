@@ -234,7 +234,10 @@ let arr = [
 // // array_methods
 // // Task  1 map
 
+
 // let result = arr.map((arr)=> {
+// A: return [] ? massiv? obyekt return etmeli idin
+
 //  return [arr.id,arr.username,arr.email]
 // })
 
@@ -242,6 +245,7 @@ let arr = [
 
 // // Task 2 forEach
 
+// A: createElement-den istifade et
 // arr.forEach((elem)=>{
 //   document.write(`
 //   Username: ${elem.username}<br/>
@@ -251,6 +255,7 @@ let arr = [
 
 // // Task 3 getObject
 
+// A: done ✅
 // function getObject(name) {
 // return arr.find((element)=>{
 // if (element.name === name) {
@@ -265,6 +270,7 @@ let arr = [
 
 // // Task 4 replace
 
+// A: done ✅
 // let array = ["ali", "reza", "alireza", "muhammad", "coshqun", "eles"];
 // function hideNames(array1) {
 //   return array1.map((elem) => {
