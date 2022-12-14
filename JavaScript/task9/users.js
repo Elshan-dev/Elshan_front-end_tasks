@@ -235,13 +235,13 @@ let arr = [
 // // Task  1 map
 
 
-// let result = arr.map((arr)=> {
+let result = arr.map((arr)=> {
 // A: return [] ? massiv? obyekt return etmeli idin
 
-//  return [arr.id,arr.username,arr.email]
-// })
+ return [arr.id,arr.username,arr.email]
+})
 
-// console.log(result)
+console.log(result)
 
 // // Task 2 forEach
 
