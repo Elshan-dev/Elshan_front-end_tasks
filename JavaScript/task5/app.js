@@ -7,12 +7,7 @@
 // A: if-e ehtiyac yoxdu, ele callback-in argumentine ver getsin
 
 // function add(num1,num2,callback) {
-// if (callback === console.log) {
-// console.log(num1 + num2)
-// } 
-// else if (callback === alert) {
-// alert(num1 + num2)
-// }
+// callback(num1+num2)
 // }
 // add(9, 10, console.log);
 
