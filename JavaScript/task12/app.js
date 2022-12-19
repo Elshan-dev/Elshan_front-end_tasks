@@ -76,6 +76,7 @@ const root=document.getElementById('root')
 //   createElem()
 
 function createElemV2() {
+    //A: {} niye? obyekti goture bilersen mence     
     users.forEach(({}, index) => {
       const newEl = document.createElement("div")
       root.append(newEl)

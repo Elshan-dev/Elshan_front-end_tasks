@@ -1,3 +1,4 @@
+// A: done ✅
 const rootElem = document.getElementById('root')
 const simsim = document.createElement('h2')
 rootElem.appendChild(simsim)
