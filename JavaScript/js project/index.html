@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaire game</title>
+    <link rel="icon" href="./img/billionairelogo.webp">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="pagecontainer">
+    <div id="loginPage">
+        <h2>WHO WANTS TO BE A BILLIONAIRE?</h2>
+        <input type="text" placeholder="Name (min. 3 characters)" id="nameInput">
+        <input type="text" placeholder="Surname (min. 3 characters)" id="surnameInput">
+        <input type="number" placeholder="Phone number (9 digits)" id="numberInput">
+        <input type="submit" value="Log in" id="loginBtn">
+    </div>
+    <div id="gamePage" style="display:none">
+        <aside class="prizes-container"></aside>
+        <main class="question-container" >
+            <h3 id="questionElem"></h3>
+            <div class="answer-container">
+        </div>
+        </main>
+        <aside class="tips-container" >
+<button id="fiftyFiftyBtn">
+<img draggable="false" src="./img/50-percent.png" alt="">
+</button>
+<button id="jokerBtn">
+    <img draggable="false" src="./img/joker.png" alt="">
+</button>
+<button id="phoneBtn">
+    <img draggable="false" src="./img/telephone.png" alt="">
+</button>
+        </aside>
+    </div>
+    <div id="finishPage" style="display: none;">
+        <h1 id="finishPageHeading"></h1>
+        <div class="results">
+            <h3 id="correctCount"><h3>
+            <h3 id="amountPaid"><h3>
+        </div>
+    </div>
+</div>
+<script src="./js/q&a.js"></script>
+    <script src="./js/imports.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/app.js" defer></script>
+</body>
+</html>

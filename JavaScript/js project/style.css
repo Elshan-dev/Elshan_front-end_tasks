@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  font-family: Andika-Regular;
+}
+
+:root {
+  --primary_color: rgb(99, 3, 99);
+  --secondary_color: black;
+  --light_color: white;
+  --danger_color: red;
+  --correct_color: lime;
+  --gradient_color: linear-gradient(rgb(63, 94, 251), rgb(215, 161, 172));
+  --body_color: linear-gradient(var(--primary_color), var(--secondary_color));
+  --placeholder_color: gray;
+}
+
+@font-face {
+  font-family: Andika-Regular;
+  src: url(./fonts/Andika-Regular.ttf);
+}
+
+@font-face {
+  font-family: CinzelDecorativeBold;
+  src: url(./fonts/CinzelDecorative-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  background: var(--body_color);
+}
+
+p {
+  margin: 0;
+}
+
+.pagecontainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+#loginPage h2 {
+  color: var(--light_color);
+  text-align: center;
+  font-size: 2rem;
+  font-family: CinzelDecorativeBold;
+}
+
+#loginPage {
+  border: var(--light_color) 2px solid;
+  border-radius: 10px;
+  padding: 25px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#loginPage input {
+  font-size: 1rem;
+  background-color: var(--secondary_color);
+  color: var(--light_color);
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  outline: solid 2px var(--light_color);
+}
+
+#loginPage input:hover {
+  cursor: pointer;
+}
+
+#loginPage input::placeholder {
+  color: var(--placeholder_color);
+}
+
+#finishPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results {
+  background-color: transparent;
+  border: solid 2px var(--light_color);
+  border-radius: 10px;
+  padding: 0 10px;
+  color: var(--light_color);
+}
+
+#finishPage h1 {
+  font-size: 4rem;
+  color: var(--light_color);
+  font-family: CinzelDecorativeBold;
+}
+
+#finishPage h3 {
+  font-size: 2rem;
+}
+
+#gamePage {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  color: var(--light_color);
+  gap: 10px;
+}
+
+.prizes-container {
+  max-width: 200px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.takenPrize {
+  background: var(--gradient_color) !important;
+  border-radius: 100%;
+}
+
+.prizes-container p {
+  user-select: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.question-container {
+  max-width: 700px;
+  min-width: 250px;
+  border: 2px solid var(--light_color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.question-container input {
+  font-size: 1.5rem;
+  background-color: var(--secondary_color);
+  color: var(--light_color);
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 0 10px;
+  outline: solid 2px var(--light_color);
+  float: right;
+}
+
+.question-container h3 {
+  margin: 0;
+  border-bottom: 2px solid var(--light_color);
+  margin-bottom: 10px;
+  font-size: 2rem;
+  overflow-wrap: break-word;
+  user-select: none;
+}
+
+.answer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.answer-container p {
+  width: 45%;
+  border: 1px solid var(--light_color);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  padding: 5px;
+  user-select: none;
+}
+
+.answer-container p:hover {
+  background: var(--gradient_color);
+  cursor: pointer;
+}
+
+.tips-container {
+  max-width: 100px;
+  min-width: 50px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  gap: 10px;
+}
+
+.tips-container button {
+  width: 100%;
+}
+
+.tips-container img {
+  width: 30px;
+}
+
+.correctAnswer {
+  background: var(--correct_color) !important;
+  color: var(--secondary_color);
+}
+
+.wrongAnswer {
+  background: var(--danger_color) !important;
+}
+
+.disabledAnswersContainer p {
+  pointer-events: none !important;
+}
+
+.tips-container button {
+  border: var(--light_color);
+  border-radius: 30%;
+}
+
+.tips-container button:hover {
+  cursor: pointer;
+  background: var(--gradient_color);
+}
