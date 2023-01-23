@@ -1,0 +1,38 @@
+.card {
+  width: 270px;
+  height: 347px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.pageContainer{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 10px 30px;
+     justify-content: space-evenly;
+     background-color: black;
+     gap: 20px;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+.card>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+p{
+    font-size: small;
+}
+
+h1{
+    font-size: medium;
+}
