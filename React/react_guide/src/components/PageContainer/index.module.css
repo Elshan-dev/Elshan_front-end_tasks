@@ -1,0 +1,9 @@
+.header {
+  background-color: black;
+  text-align: center;
+}
+
+.header > a {
+  color: white;
+  margin: 0 10px;
+}

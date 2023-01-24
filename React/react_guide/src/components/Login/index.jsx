@@ -12,9 +12,9 @@ export function Login() {
   const [input, setInput] = useState(initialValue);
   const emailInput = useRef();
   const passwordInput = useRef();
-  
+
   useEffect(() => {
-    emailInput.current.focus()
+    emailInput.current.focus();
     console.log("Mounted");
   }, []);
   useEffect(() => {

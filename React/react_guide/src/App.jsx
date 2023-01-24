@@ -1,9 +1,10 @@
-import { Yummy } from "./components/Yummy";
+import { WebsiteRouting } from "routes";
+
 
 function App() {
   return (
     <>
-      <Yummy />
+      <WebsiteRouting/>
     </>
   );
 }
