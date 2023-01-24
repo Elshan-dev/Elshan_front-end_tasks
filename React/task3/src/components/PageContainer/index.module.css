@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+.header {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.homeStyles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+.homeStyles img{
+  width: 44.5%;
+}
+.homeStyles a{
+  text-decoration: none;
+  color: red;
+  font-size: xx-large;
+}
+.aboutStyles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.aboutStyles img{
+  padding: 50px 0px;
+  width: 25.5%;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm input{
+  width: 30%;
+}
+button:hover{
+  background-color: darkred !important;
+  cursor: pointer;
+}
+
+#messageArea{
+  width: 30%;
+  height: 100px;
+}
