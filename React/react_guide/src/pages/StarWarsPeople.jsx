@@ -13,7 +13,8 @@ export function StarWarsPeople({}) {
       const { data } = await axios.get(
         `https://www.swapi.tech/api/people/${peopleID}`
       );
-      let { birth_year, mass, name, eye_color } = data.results.properties;
+      console.log({data})
+      let { birth_year, mass, name, eye_color } = data.result.properties;
       setProperties({birth_year,mass,name,eye_color})
     }
     getData();
