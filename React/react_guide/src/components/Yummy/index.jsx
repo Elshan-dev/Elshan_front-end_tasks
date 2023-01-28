@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchMeal } from "api/meal";
 import styles from "./index.module.css";
+import { PageContainer } from "components/PageContainer";
 
 export function Yummy({}) {
   const [meal, setMeal] = useState({});
@@ -9,7 +10,7 @@ export function Yummy({}) {
   }, []);
 
   return (
-    <>
+    <PageContainer>
       <h1 className={styles.heading}>Welcome to canteen</h1>
       {Object.keys(meal).length > 0 && (
         <>
@@ -26,6 +27,6 @@ export function Yummy({}) {
           />
         </>
       )}
-    </>
+    </PageContainer>
   );
 }

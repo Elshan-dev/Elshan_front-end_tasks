@@ -21,6 +21,10 @@ export function NavBar({}) {
     <nav>
       <CustomizedNavLink to="/" text="Home" />
       <CustomizedNavLink to="/about" text="About" />
+      <CustomizedNavLink to="/services" text="Services" />
+      <CustomizedNavLink to="/yummy" text="Yummy" />
+      <CustomizedNavLink to="/login" text="Login" />
+      <CustomizedNavLink to="/starwars" text="StarWars" />
     </nav>
   );
 }

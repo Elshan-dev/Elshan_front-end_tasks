@@ -1,3 +1,4 @@
+import { PageContainer } from "components/PageContainer";
 import { useEffect, useRef, useState } from "react";
 import { addGmail } from "../../utils";
 import { Button } from "../Button";
@@ -26,7 +27,7 @@ export function Login() {
     };
   }, []);
   return (
-    <div className={styles.form}>
+    <PageContainer className={styles.form}>
       <input
         ref={emailInput}
         onChange={({ target }) => {
@@ -59,6 +60,6 @@ export function Login() {
           setInput({ ...input, email: addGmail(input.email) });
         }}
       />
-    </div>
+    </PageContainer>
   );
 }
