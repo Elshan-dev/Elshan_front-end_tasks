@@ -22,7 +22,7 @@ function CustomizedNavLink({ to, text }) {
 export function NavBar({}) {
   const [dark, setDark] = useContext(ModeContext);
   const showAlert = useContext(AlertContext);
-  return (
+  return ( 
     <nav>
       <CustomizedNavLink to="/" text="Home" />
       <CustomizedNavLink to="/about" text="About" />
