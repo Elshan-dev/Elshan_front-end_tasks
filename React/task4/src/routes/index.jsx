@@ -5,6 +5,8 @@ import { Home } from "pages/Home";
 import { About } from "pages/About";
 import { StarWarsPeople } from "pages/StarWarsPeople";
 import { StarWars } from "pages/StarWars";
+import { StarWarsWithReducer } from "pages/StarWarsWithReducer";
+import { CatBreeds } from "pages/CatBreeds";
 
 export function WebsiteRouting() {
   return (
@@ -14,7 +16,8 @@ export function WebsiteRouting() {
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/starwars/:peopleID" element={<StarWarsPeople />} />
-      <Route path="/starwars" element={<StarWars />} />
+      <Route path="/starwars-with-reducer" element={<StarWarsWithReducer />} />
+      <Route path="/cat-breeds" element={<CatBreeds />} />
     </Routes>
   );
 }
