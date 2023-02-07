@@ -4,7 +4,8 @@ import { WebsiteRouting } from "routes";
 function App() {
   return (
     <>
-      <WebsiteRouting/>
+      {/* A: done as 🐉  */}
+      <WebsiteRouting />
     </>
   );
 }
