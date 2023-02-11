@@ -31,6 +31,7 @@ export function NavBar({}) {
       <CustomizedNavLink to="/starwars" text="StarWars" />
       <CustomizedNavLink to="/cat-facts" text="CatFacts" />
       <CustomizedNavLink to="/posts-redux" text="PostsRedux" />
+      <CustomizedNavLink to="/mui" text="Mui" />
       <button
         onClick={() => {
           setDark((pre) => !pre);

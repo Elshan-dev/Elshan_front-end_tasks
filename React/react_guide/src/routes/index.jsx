@@ -9,6 +9,7 @@ import { StarWarsWithReducer } from "pages/StarWarsWithReducer";
 import { CatBreeds } from "pages/CatBreeds";
 import { Catfacts } from "pages/CatFacts";
 import  PostsRedux  from "pages/PostsRedux";
+import { Mui } from "pages/Mui";
 
 
 export function WebsiteRouting() {
@@ -23,6 +24,7 @@ export function WebsiteRouting() {
       <Route path="/cat-breeds" element={<CatBreeds />} />
       <Route path="/cat-facts" element={<Catfacts />} />
       <Route path="/posts-redux" element={<PostsRedux />} />
+      <Route path="/mui" element={<Mui />} />
     </Routes>
   );
 }
