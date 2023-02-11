@@ -9,12 +9,13 @@ const initialValue = {
   msgarea: "",
 };
 
-export function Contact({}) {
+export function Contact({ }) {
   const [input, setInput] = useState(initialValue);
   const emailInput = useRef();
   const passwordInput = useRef();
   const msgInput = useRef();
 
+  // A: yeqin ki, bunlar oyrenme meqsedi dasiyir. Cunki, console-a yazmaq, funksionalliqda hec bir deyishiklik etmez :)
   useEffect(() => {
     emailInput.current.focus();
     console.log("Mounted");
@@ -60,6 +61,7 @@ export function Contact({}) {
         <Button
           bgColor="red"
           text="submit"
+          // A: props adlari da camelCase ile olsa ela olar.
           Clicked={() => {
             console.log(input);
           }}

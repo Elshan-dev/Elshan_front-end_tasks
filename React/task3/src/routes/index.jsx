@@ -8,6 +8,7 @@ export function WebsiteRouting() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      {/* A: esasen route-daki path-ler lowercase olur */}
       <Route path="/Contact" element={<Contact />} />
     </Routes>
   );
